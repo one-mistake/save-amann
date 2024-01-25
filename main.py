@@ -66,7 +66,7 @@ def progress(current, total, message, type):
 @bot.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
 	bot.send_message(
-		message.chat.id, f"**__👋 Hi** **{message.from_user.mention}**, **I am Save Restricted Bot by TGS, I can send you restricted content by it's post link.__**\n\n{USAGE}",
+		message.chat.id, f"**__👋 Hi** **{message.from_user.mention}**, **I am Save Restricted Bot by CW Botz, I can send you restricted content by it's post link.__**\n\n{USAGE}",
 		reply_markup=InlineKeyboardMarkup([[ 
 			InlineKeyboardButton("🚀 CW Botz", url="https://t.me/cw_botz"),
 			InlineKeyboardButton("🖋️ College Wale", url="https://t.me/college_wale_0")
@@ -255,7 +255,7 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 USAGE = """**__🚀 SEND ME LINK OF ANY MESSAGE TO CLONE IT HERE, FOR PRIVATE CHANNEL MESSAGE, SEND INVITE LINK FIRST.**
 
 
-**❣️ POWERED BY :- @HackingCraze24_7Bot__**
+**❣️ POWERED BY :- @TECH_O1_bot__**
 """
 
 
